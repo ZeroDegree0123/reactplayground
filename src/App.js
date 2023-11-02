@@ -16,7 +16,6 @@ export default function Game() {
     setCurrentMove(nextHistory.length - 1);
   }
 
-
   const jumpTo = (nextMove) => {
     setCurrentMove(nextMove);
   }
